@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
+      name = "Binary Search Tree">
+      <Group
+         location = "group:Solution1"
+         name = "Solution1">
+         <FileRef
+            location = "group:BinarySearchTree.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree/Solution2"
+         name = "Solution2">
+         <FileRef
+            location = "group:BinarySearchTree.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Binary Search"
+      name = "Binary Search">
+   </Group>
+   <Group
+      location = "group:Tree"
+      name = "Tree">
+      <FileRef
+         location = "group:Tree.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Tree.swift">
+      </FileRef>
+   </Group>
+</Workspace>
