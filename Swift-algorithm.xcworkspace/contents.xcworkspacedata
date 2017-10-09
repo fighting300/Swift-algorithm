@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Trie"
+      name = "Trie">
+      <FileRef
+         location = "group:Trie.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
       name = "Binary Search Tree">
       <Group
