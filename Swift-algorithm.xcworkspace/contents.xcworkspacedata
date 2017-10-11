@@ -2,6 +2,20 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Insertion Sort"
+      name = "Insertion Sort">
+      <FileRef
+         location = "group:InsertionSort.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Selection Sort"
+      name = "Selection Sort">
+      <FileRef
+         location = "group:SelectionSort.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Trie"
       name = "Trie">
       <FileRef

@@ -1,5 +1,3 @@
-import Foundation
-
 class TrieNode<T: Hashable> {
     var value: T?
     weak var parent: TrieNode?

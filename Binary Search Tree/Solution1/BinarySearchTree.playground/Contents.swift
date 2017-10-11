@@ -16,7 +16,10 @@ let toDelete = tree.search(value: 1)
 toDelete?.remove()
 print(tree)
 
+tree.search(value: 5)
+tree.search(value: 2)
 tree.search(value: 7)
+tree.search(value: 6)
 
 tree.traverseInOrder { value in print(value) }
 
@@ -26,7 +29,8 @@ tree.minimum()
 tree.maximum()
 
 if let node2 = tree.search(value: 2) {
-    node2.remove()
+    //node2.remove()
+    node2
     print(tree)
 }
 
