@@ -2,7 +2,8 @@
 // 基本排序算法： 插入排序
 // 取未排序数组中的每一个数据与已排序的比较，并选择合适的位置插入
 
-// 复杂度 O(n^2) 适用于不是很大的数据 Quicksort & Mergesort 更适用于大量数据
+// 复杂度 O(n^2) 适用于不是很大的数据
+// 相比较而言 QuickSort & MergeSort O(nlog n) 更适用于大量数据
 func insertionSort<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
     guard array.count > 1 else { return array }
 
