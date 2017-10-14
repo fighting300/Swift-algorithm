@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Quick Sort"
+      name = "Quick Sort">
+      <FileRef
+         location = "group:QuickSort.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Shell Sort"
       name = "Shell Sort">
       <FileRef
