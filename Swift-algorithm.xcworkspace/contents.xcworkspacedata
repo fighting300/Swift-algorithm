@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Merge Sort"
+      name = "Merge Sort">
+      <FileRef
+         location = "group:MergeSort.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Quick Sort"
       name = "Quick Sort">
       <FileRef
