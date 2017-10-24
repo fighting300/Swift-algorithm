@@ -2,6 +2,20 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Heap"
+      name = "Heap">
+      <FileRef
+         location = "group:Heap.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Heap Sort"
+      name = "Heap Sort">
+      <FileRef
+         location = "group:HeapSort.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Merge Sort"
       name = "Merge Sort">
       <FileRef
@@ -44,6 +58,10 @@
       </FileRef>
    </Group>
    <Group
+      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Tree"
+      name = "Binary Tree">
+   </Group>
+   <Group
       location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
       name = "Binary Search Tree">
       <Group
@@ -60,10 +78,6 @@
             location = "group:BinarySearchTree.playground">
          </FileRef>
       </Group>
-   </Group>
-   <Group
-      location = "group:Binary Search"
-      name = "Binary Search">
    </Group>
    <Group
       location = "group:Tree"
