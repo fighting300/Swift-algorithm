@@ -1,8 +1,8 @@
 //: Playground - noun: a place where people can play
 // 快速排序算法： 堆排序  类似选择排序
 // 拆分数据，然后合并拆分后的数据  非稳定排序
-import Foundation
 // 复杂度 O(nlog n)
+import Foundation
 
 extension Heap {
     public mutating func sort() -> [T] {

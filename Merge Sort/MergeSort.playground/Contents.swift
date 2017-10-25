@@ -1,6 +1,6 @@
 import Foundation
 //: Playground - noun: a place where people can play
-// 快速排序算法： 归并排序
+// 快速排序算法： 归并排序 稳定排序
 // 拆分数据，然后合并拆分后的数据
 // 复杂度 O(nlog n)
 
@@ -86,8 +86,9 @@ func mergeSortBottomUp<T>(_ a: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
             }
             
             i += width*2
+            print(z[0],z[1], width, i)
         }
-        
+        //print(z[0],z[1])
         width *= 2   // in each step, the subarray to merge becomes larger
         d = 1 - d    // swap active array
     }

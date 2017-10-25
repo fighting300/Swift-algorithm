@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 import Foundation
-// 堆 父节点大于或小于子节点 shiftUp/Down
+// 树: 堆 父节点大于或小于子节点 shiftUp/Down
 public struct Heap<T> {
     var elements = [T]()
     

@@ -1,9 +1,4 @@
-//
-//  Tree.swift
-//
-//
-//  Created by Leon on 2017/10/9.
-//
+// 树: 树
 
 public class Node<T> {
     public var value: T
