@@ -1,7 +1,7 @@
+import Foundation
 //: Playground - noun: a place where people can play
 // 快速排序算法： 归并排序
 // 拆分数据，然后合并拆分后的数据
-import Foundation
 // 复杂度 O(nlog n)
 
 func mergeSort<T: Comparable>(_ array: [T]) -> [T] {

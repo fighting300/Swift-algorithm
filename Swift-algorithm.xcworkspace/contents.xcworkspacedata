@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Priority Queue"
+      name = "Priority Queue">
+      <FileRef
+         location = "group:PriorityQueue.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Heap"
       name = "Heap">
       <FileRef

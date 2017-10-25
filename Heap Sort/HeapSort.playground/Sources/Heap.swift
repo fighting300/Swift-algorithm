@@ -1,8 +1,7 @@
-//: Playground - noun: a place where people can play
 import Foundation
-// 堆 父节点大于或小于子节点 shiftUp/Down
+
 public struct Heap<T> {
-    var elements = [T]()
+    public var elements = [T]()
     
     fileprivate var isOrderedBefore: (T, T) -> Bool
     
@@ -22,13 +21,13 @@ public struct Heap<T> {
         }
     }
     /* // 复杂度 O(n log n)
-    private mutating func privateBuildHeap(array: [T]) {
-        elements.reserveCapacity(array.count)
-        for value in array {
-            insert(value)
-        }
-    }
-    */
+     private mutating func privateBuildHeap(array: [T]) {
+     elements.reserveCapacity(array.count)
+     for value in array {
+     insert(value)
+     }
+     }
+     */
     public var isEmpty: Bool {
         return elements.isEmpty
     }
@@ -48,7 +47,7 @@ public struct Heap<T> {
     @inline(__always) func rightChildIndex(ofIndex i: Int) -> Int {
         return 2*i + 2
     }
-    // O(1)
+    
     public func peek() -> T? {
         return elements.first
     }
@@ -116,7 +115,7 @@ public struct Heap<T> {
         shiftDown(0, heapSize: elements.count)
     }
     // 遍历children
-    mutating func shiftDown(_ index: Int, heapSize: Int) {
+    public mutating func shiftDown(_ index: Int, heapSize: Int) {
         var parentIndex = index
         while true {
             let leftChildIndex = self.leftChildIndex(ofIndex: parentIndex)
@@ -154,9 +153,3 @@ extension Heap where T: Equatable {
         return nil
     }
 }
-
-var h1 = Heap(array: [4, 1, 3, 2, 16, 9, 10, 14, 8, 7], sort: >)
-h1.elements
-h1.peek()
-h1.remove()
-
