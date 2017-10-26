@@ -1,7 +1,6 @@
-//: Playground - noun: a place where people can play
-// 快速排序算法： 堆排序  类似选择排序
-// 拆分数据，然后合并拆分后的数据  非稳定排序
-// 复杂度 O(nlog n)
+// 快速排序算法： 堆排序  不稳定排序
+// 从堆顶把根卸出来放在有序区之前，再恢复堆
+// 时间复杂度 O(nlog n) 空间复杂度 O(1)
 import Foundation
 
 extension Heap {

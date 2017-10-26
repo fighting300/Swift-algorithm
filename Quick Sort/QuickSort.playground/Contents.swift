@@ -1,7 +1,6 @@
-//: Playground - noun: a place where people can play
-// 快速排序算法： 快速排序 非稳定排序算法
-// 取原数据支点(中间/最后/开头)，比对每个元素按大小分别放在其左右
-// 复杂度 O(n^2) 最快为O(nlog n)
+// 快速排序算法： 快速排序 不稳定排序算
+// 取原数据基准元素(中间/最后/开头)，比对每个元素按大小分别放在其左右
+// 时间复杂度 O(n^2) 最快为O(nlog n)
 import Foundation
 
 // 分治 filter不高效

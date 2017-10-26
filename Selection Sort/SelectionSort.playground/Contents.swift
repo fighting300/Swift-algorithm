@@ -1,8 +1,7 @@
-//: Playground - noun: a place where people can play
-// 基本排序算法： 选择排序
+// 基本排序算法： 选择排序 不稳定排序
 // 选择未排序数据中最大/小的数放到已排序的部分
+// 时间复杂度 O(n^2) 空间复杂度 O(1) 寻找最小数会重复运行，
 
-// 复杂度 O(n^2) 寻找最小数会重复运行，
 // 比Bundle sort性能好，但是不如Insertion Sort，HeapSort使用了类似的方法，但是性能为O(nlog n)
 func selectionSort<T: Comparable>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) -> [T] {
     guard array.count > 1 else { return array }

@@ -1,7 +1,7 @@
-//: Playground - noun: a place where people can play
-// 基本排序算法： 希尔排序 非稳定排序算法
+// 基本排序算法： 希尔排序 不稳定排序算
 // 把原数据按一定的增量分组(gap)，然后使用插入排序，再逐渐缩小增量
-// 复杂度 O(n^2) 最快为O(nlog n)
+// 时间复杂度 O(n^2) 最快为O(nlog n)  空间复杂度 O(1)
+
 func insertionSort(_ list: inout [Int], start: Int, gap: Int) {
     for i in stride(from: (start + gap), to: list.count, by: gap) {
         let currentValue = list[i]
