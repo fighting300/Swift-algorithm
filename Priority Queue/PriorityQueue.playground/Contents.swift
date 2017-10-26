@@ -1,4 +1,3 @@
-//: Playground - noun: a place where people can play
 // 队列Queues： 优先队列 一个保持最重要的元素总是在最前面的队列
 import Foundation
 // 复杂度 O(lg n)

@@ -2,6 +2,23 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Linked List"
+      name = "Linked List">
+      <FileRef
+         location = "group:LinkedList.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Queue"
+      name = "Queue">
+      <FileRef
+         location = "group:Queue.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Queue-Optimized.swift">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Priority Queue"
       name = "Priority Queue">
       <FileRef
@@ -9,10 +26,41 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:Heap"
-      name = "Heap">
+      location = "group:Stack"
+      name = "Stack">
       <FileRef
-         location = "group:Heap.playground">
+         location = "group:Stack.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Run-Length Encoding"
+      name = "Run-Length Encoding">
+      <FileRef
+         location = "group:RLE.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Binary Search"
+      name = "Binary Search">
+      <FileRef
+         location = "group:BinarySearch.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Linear Search"
+      name = "Linear Search">
+      <FileRef
+         location = "group:LinearSearch.playground">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:Bublle Sort"
+      name = "Bublle Sort">
+      <FileRef
+         location = "group:README.md">
       </FileRef>
    </Group>
    <Group
@@ -85,6 +133,13 @@
             location = "group:BinarySearchTree.playground">
          </FileRef>
       </Group>
+   </Group>
+   <Group
+      location = "group:Heap"
+      name = "Heap">
+      <FileRef
+         location = "group:Heap.playground">
+      </FileRef>
    </Group>
    <Group
       location = "group:Tree"
