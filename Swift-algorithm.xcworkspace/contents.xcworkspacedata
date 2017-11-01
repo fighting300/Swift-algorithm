@@ -2,6 +2,23 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Tree"
+      name = "Tree">
+      <FileRef
+         location = "group:Tree.playground">
+      </FileRef>
+      <FileRef
+         location = "group:Tree.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Tree"
+      name = "Binary Tree">
+      <FileRef
+         location = "group:BinaryTree.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Linked List"
       name = "Linked List">
       <FileRef
@@ -113,10 +130,6 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Tree"
-      name = "Binary Tree">
-   </Group>
-   <Group
       location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
       name = "Binary Search Tree">
       <Group
@@ -139,16 +152,6 @@
       name = "Heap">
       <FileRef
          location = "group:Heap.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:Tree"
-      name = "Tree">
-      <FileRef
-         location = "group:Tree.playground">
-      </FileRef>
-      <FileRef
-         location = "group:Tree.swift">
       </FileRef>
    </Group>
 </Workspace>
