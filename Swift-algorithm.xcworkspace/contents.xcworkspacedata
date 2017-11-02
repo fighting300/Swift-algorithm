@@ -5,6 +5,21 @@
       location = "group:Graph"
       name = "Graph">
       <FileRef
+         location = "group:AdjacencyListGraph.swift">
+      </FileRef>
+      <FileRef
+         location = "group:AdjacencyMatrixGraph.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Edge.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Graph.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Vertex.swift">
+      </FileRef>
+      <FileRef
          location = "group:Graph.playground">
       </FileRef>
    </Group>
@@ -107,6 +122,27 @@
       name = "Linear Search">
       <FileRef
          location = "group:LinearSearch.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Count Occurrences"
+      name = "Count Occurrences">
+      <FileRef
+         location = "group:CountOccurrences.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Brute-Force String Search"
+      name = "Brute-Force String Search">
+      <FileRef
+         location = "group:BruteForceStringSearch.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Boyer-Moore String Search"
+      name = "Boyer-Moore String Search">
+      <FileRef
+         location = "group:BoyerMooreStringSearch.playground">
       </FileRef>
    </Group>
    <FileRef
