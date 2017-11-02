@@ -26,6 +26,42 @@ extension BinaryTree: CustomStringConvertible {
     }
 }
 
+extension BinaryTree {
+    public func traverseInOrder(process: (T) -> Void) {
+        if case let .node(left, value, right) = self {
+            left.traverseInOrder(process: process)
+            process(value)
+            right.traverseInOrder(process: process)
+        }
+    }
+    
+    public func traversePreOrder(process: (T) -> Void) {
+        if case let .node(left, value, right) = self {
+            process(value)
+            left.traversePreOrder(process: process)
+            right.traversePreOrder(process: process)
+        }
+    }
+    
+    public func traversePostOrder(process: (T) -> Void) {
+        if case let .node(left, value, right) = self {
+            left.traversePreOrder(process: process)
+            right.traversePreOrder(process: process)
+            process(value)
+        }
+    }
+}
+
+extension BinaryTree {
+    func invert() -> BinaryTree {
+        if case let .node(left, value, right) = self {
+            return .node(right.invert(), value ,right.invert())
+        } else {
+            return .empty
+        }
+    }
+}
+
 // leaf nodes
 let node5 = BinaryTree.node(.empty, "5", .empty)
 let nodeA = BinaryTree.node(.empty, "a", .empty)
@@ -48,4 +84,8 @@ let tree = BinaryTree.node(timesLeft, "+", timesRight)
 
 print(tree)
 tree.count  // 12
+
+tree.traverseInOrder { s in print(s) }
+tree.traversePreOrder { s in print(s) }
+tree.traversePostOrder { s in print(s) }
 

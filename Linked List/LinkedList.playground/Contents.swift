@@ -27,7 +27,7 @@ public final class LinkedList<T> {
     
     public var last: Node? {
         if var node = head {
-            while let next? = node.next {
+            while case let next? = node.next {
                 node = next
             }
             return node

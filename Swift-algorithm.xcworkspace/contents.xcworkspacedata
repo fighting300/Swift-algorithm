@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Graph"
+      name = "Graph">
+      <FileRef
+         location = "group:Graph.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Tree"
       name = "Tree">
       <FileRef
@@ -16,6 +23,38 @@
       name = "Binary Tree">
       <FileRef
          location = "group:BinaryTree.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
+      name = "Binary Search Tree">
+      <Group
+         location = "group:Solution1"
+         name = "Solution1">
+         <FileRef
+            location = "group:BinarySearchTree.playground">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree/Solution2"
+         name = "Solution2">
+         <FileRef
+            location = "group:BinarySearchTree.playground">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:Trie"
+      name = "Trie">
+      <FileRef
+         location = "group:Trie.playground">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Heap"
+      name = "Heap">
+      <FileRef
+         location = "group:Heap.playground">
       </FileRef>
    </Group>
    <Group
@@ -120,38 +159,6 @@
       name = "Selection Sort">
       <FileRef
          location = "group:SelectionSort.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:Trie"
-      name = "Trie">
-      <FileRef
-         location = "group:Trie.playground">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree"
-      name = "Binary Search Tree">
-      <Group
-         location = "group:Solution1"
-         name = "Solution1">
-         <FileRef
-            location = "group:BinarySearchTree.playground">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:/Users/leon/Desktop/BlogCode/Swift-algorithm/Binary Search Tree/Solution2"
-         name = "Solution2">
-         <FileRef
-            location = "group:BinarySearchTree.playground">
-         </FileRef>
-      </Group>
-   </Group>
-   <Group
-      location = "group:Heap"
-      name = "Heap">
-      <FileRef
-         location = "group:Heap.playground">
       </FileRef>
    </Group>
 </Workspace>

@@ -1,5 +1,4 @@
 // 树: 树
-
 public class Node<T> {
     public var value: T
     weak var parent: Node?
