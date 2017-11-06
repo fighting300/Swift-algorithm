@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Two-Sum Problem"
+      name = "Two-Sum Problem">
+      <FileRef
+         location = "group:2Sum.playground">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:Graph"
       name = "Graph">
       <FileRef
